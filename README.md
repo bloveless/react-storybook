@@ -4,4 +4,4 @@ This is my storybook containing the react components I've created. You can view 
 
 It currently contains the following react components:
 
-1. CalendarHeatmap - an interactive calendar which shows a heatmap overlay.
+1. **CalendarHeatmap** - an interactive calendar which shows a heatmap overlay.
