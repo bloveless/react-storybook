@@ -27,6 +27,7 @@
     "@bloveless/react-calendar-heatmap": "file:../react-calendar-heatmap/dist",
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/react": "^3.4.10",
+    "date-fns": "^1.29.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
