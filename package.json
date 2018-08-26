@@ -1,18 +1,17 @@
 {
-  "name": "storybook",
+  "name": "react-storybook",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "start": "start-storybook -p 9001 -c .storybook",
     "build": "build-storybook -c .storybook -o docs"
   },
   "author": "Brennon Loveless <brennon.loveless@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
-    "@storybook/react": "^3.4.10",
     "babel-bridge": "^1.12.11",
     "css-loader": "^1.0.0",
     "eslint": "^5.4.0",
@@ -25,7 +24,9 @@
     "style-loader": "^0.22.1"
   },
   "dependencies": {
-    "@bloveless/react-calendar-heatmap": "file:../react-calendar-heatmap",
+    "@bloveless/react-calendar-heatmap": "file:../react-calendar-heatmap/dist",
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/react": "^3.4.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }

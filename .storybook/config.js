@@ -1,7 +1,7 @@
 import { configure } from '@storybook/react';
 
 function loadStories() {
-  require('../stories/calendar-histogram.js');
+  require('../stories/calendar-heatmap.js');
   // You can require as many stories as you need.
 }
 
